@@ -2,13 +2,11 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 const SingleMovie = () => {
-const{id}=useParams();
-
+  const { id } = useParams()
 
   return (
     <>
-<div> Our Single Movie {id} </div>
-
+      <div> Our Single Movie {id} </div>
     </>
   )
 }
